@@ -1,4 +1,0 @@
-- read about the interrupts handling in assembly
-- how to hook interupt in asm
-- how to capture keystrokes and store them
-- come back to old keystrokes

@@ -13,13 +13,17 @@ This is a primitive Keylogger written in x86_64 assembly for linux.
 - LD linker.
 
 ## Building the Keylogger
-1. Assemble the code:
+1. Create a file called keystrokes.log:
+    ```sh
+    touch keystrokes.log
+    ```
+2. Assemble the code:
 
     ```sh
     nasm -f elf64 script.asm -o script.o
     ```
 
-2. Link the object file:
+3. Link the object file:
 
     ```sh
     ld script.o -o script

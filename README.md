@@ -35,3 +35,11 @@ To run the keylogger:
 
 ```sh
 ./script
+```
+
+To stop the Keylogger press CTRL + C.
+
+To check the keys that were saved:
+```sh
+cat keystrokes.log
+```
